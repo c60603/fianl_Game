@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,15 +11,72 @@
 		553B22ED2626D187009A291D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B22EC2626D187009A291D /* ContentView.swift */; };
 		553B22EF2626D189009A291D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553B22EE2626D189009A291D /* Assets.xcassets */; };
 		553B22F22626D189009A291D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553B22F12626D189009A291D /* Preview Assets.xcassets */; };
+		553B23042626D43E009A291D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 553B23032626D43E009A291D /* FirebaseAuth */; };
+		553B23062626D43E009A291D /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 553B23052626D43E009A291D /* FirebaseStorageSwift-Beta */; };
+		553B23082626D43E009A291D /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 553B23072626D43E009A291D /* FirebaseFirestoreSwift-Beta */; };
+		553B230B2626D592009A291D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B230A2626D592009A291D /* AppDelegate.swift */; };
+		8522469D267C5ADC0075914B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8522469C267C5ADC0075914B /* LoginView.swift */; };
+		852246A2267C5B040075914B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246A1267C5B040075914B /* WebView.swift */; };
+		852246A5267C5B1E0075914B /* AdsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246A4267C5B1E0075914B /* AdsView.swift */; };
+		852246A8267C5B460075914B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246A7267C5B460075914B /* RegisterView.swift */; };
+		852246B0267C91980075914B /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246AF267C91980075914B /* PageController.swift */; };
+		852246B3267C91C50075914B /* PlayerWaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246B2267C91C50075914B /* PlayerWaitView.swift */; };
+		852246B6267C91E30075914B /* CreateRoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246B5267C91E30075914B /* CreateRoleView.swift */; };
+		852246BA267C93F00075914B /* UIviewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246B9267C93F00075914B /* UIviewController+Extension.swift */; };
+		852246BD267C940B0075914B /* GADBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246BC267C940B0075914B /* GADBannerView.swift */; };
+		852246C3267CA1D30075914B /* Pods_fianl_Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2F2933860769BDD99B33E7 /* Pods_fianl_Game.framework */; };
+		852246C8267CA23B0075914B /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 852246C7267CA23B0075914B /* FirebaseAnalyticsSwift-Beta */; };
+		852246CA267CA2440075914B /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 852246C9267CA2440075914B /* FirebaseCrashlytics */; };
+		852246D1267CD8600075914B /* AdsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246D0267CD8600075914B /* AdsData.swift */; };
+		852246D5267CD8810075914B /* DataOfFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246D4267CD8810075914B /* DataOfFirebase.swift */; };
+		852246D9267CD8A30075914B /* StorageOfFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246D8267CD8A30075914B /* StorageOfFirebase.swift */; };
+		852246ED268C5B2A0075914B /* GameWaitViewMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246EC268C5B2A0075914B /* GameWaitViewMode.swift */; };
+		852246F1268C5B740075914B /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246F0268C5B740075914B /* GameViewModel.swift */; };
+		852246F4268C5BA40075914B /* Usedatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246F3268C5BA40075914B /* Usedatas.swift */; };
+		852246F8268C5CCF0075914B /* CreateGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246F7268C5CCF0075914B /* CreateGameView.swift */; };
+		852246FC268C5CFC0075914B /* GameRoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246FB268C5CFC0075914B /* GameRoadView.swift */; };
+		85224700268C5D1D0075914B /* GameWaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852246FF268C5D1D0075914B /* GameWaitView.swift */; };
+		8522470D268C60550075914B /* SoundFuction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8522470C268C60550075914B /* SoundFuction.swift */; };
+		8522471A268C62020075914B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85224719268C62020075914B /* GameView.swift */; };
+		8522472A268C68FF0075914B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85224729268C68FF0075914B /* Extension.swift */; };
+		85DDCE6D268C9DA200A4DEF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85DDCE6C268C9DA200A4DEF1 /* GoogleService-Info.plist */; };
+		85E42169268DAFB700CB7D70 /* 背景音樂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85E42168268DAFB700CB7D70 /* 背景音樂.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B2F2933860769BDD99B33E7 /* Pods_fianl_Game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fianl_Game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		553B22E72626D187009A291D /* fianl_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fianl_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		553B22EA2626D187009A291D /* fianl_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fianl_GameApp.swift; sourceTree = "<group>"; };
 		553B22EC2626D187009A291D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		553B22EE2626D189009A291D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		553B22F12626D189009A291D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		553B22F32626D189009A291D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553B230A2626D592009A291D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B21684AD249C16F28C068D5 /* Pods-fianl_Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fianl_Game.debug.xcconfig"; path = "Target Support Files/Pods-fianl_Game/Pods-fianl_Game.debug.xcconfig"; sourceTree = "<group>"; };
+		8522469C267C5ADC0075914B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		852246A1267C5B040075914B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		852246A4267C5B1E0075914B /* AdsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsView.swift; sourceTree = "<group>"; };
+		852246A7267C5B460075914B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		852246AF267C91980075914B /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		852246B2267C91C50075914B /* PlayerWaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerWaitView.swift; sourceTree = "<group>"; };
+		852246B5267C91E30075914B /* CreateRoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRoleView.swift; sourceTree = "<group>"; };
+		852246B9267C93F00075914B /* UIviewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIviewController+Extension.swift"; sourceTree = "<group>"; };
+		852246BC267C940B0075914B /* GADBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GADBannerView.swift; sourceTree = "<group>"; };
+		852246D0267CD8600075914B /* AdsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsData.swift; sourceTree = "<group>"; };
+		852246D4267CD8810075914B /* DataOfFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataOfFirebase.swift; sourceTree = "<group>"; };
+		852246D8267CD8A30075914B /* StorageOfFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageOfFirebase.swift; sourceTree = "<group>"; };
+		852246EC268C5B2A0075914B /* GameWaitViewMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWaitViewMode.swift; sourceTree = "<group>"; };
+		852246F0268C5B740075914B /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		852246F3268C5BA40075914B /* Usedatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usedatas.swift; sourceTree = "<group>"; };
+		852246F7268C5CCF0075914B /* CreateGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameView.swift; sourceTree = "<group>"; };
+		852246FB268C5CFC0075914B /* GameRoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRoadView.swift; sourceTree = "<group>"; };
+		852246FF268C5D1D0075914B /* GameWaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWaitView.swift; sourceTree = "<group>"; };
+		8522470C268C60550075914B /* SoundFuction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFuction.swift; sourceTree = "<group>"; };
+		85224719268C62020075914B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		85224729268C68FF0075914B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		85DDCE6C268C9DA200A4DEF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85E42168268DAFB700CB7D70 /* 背景音樂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "背景音樂.mp3"; path = "../../Downloads/背景音樂.mp3"; sourceTree = "<group>"; };
+		F101367CE0C04DA8C8CE58DF /* Pods-fianl_Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fianl_Game.release.xcconfig"; path = "Target Support Files/Pods-fianl_Game/Pods-fianl_Game.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852246C8267CA23B0075914B /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				553B23082626D43E009A291D /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				852246C3267CA1D30075914B /* Pods_fianl_Game.framework in Frameworks */,
+				852246CA267CA2440075914B /* FirebaseCrashlytics in Frameworks */,
+				553B23042626D43E009A291D /* FirebaseAuth in Frameworks */,
+				553B23062626D43E009A291D /* FirebaseStorageSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CEC4B2E5866F96B95E511EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B21684AD249C16F28C068D5 /* Pods-fianl_Game.debug.xcconfig */,
+				F101367CE0C04DA8C8CE58DF /* Pods-fianl_Game.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		553B22DE2626D186009A291D = {
 			isa = PBXGroup;
 			children = (
+				85E42168268DAFB700CB7D70 /* 背景音樂.mp3 */,
+				852246CF267CD8200075914B /* FileBase */,
 				553B22E92626D187009A291D /* fianl_Game */,
 				553B22E82626D187009A291D /* Products */,
+				0CEC4B2E5866F96B95E511EF /* Pods */,
+				59F6C467FE1A626262AA98AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,10 +128,23 @@
 		553B22E92626D187009A291D /* fianl_Game */ = {
 			isa = PBXGroup;
 			children = (
+				553B230A2626D592009A291D /* AppDelegate.swift */,
 				553B22EA2626D187009A291D /* fianl_GameApp.swift */,
+				852246A4267C5B1E0075914B /* AdsView.swift */,
+				8522469C267C5ADC0075914B /* LoginView.swift */,
+				852246A7267C5B460075914B /* RegisterView.swift */,
+				852246AF267C91980075914B /* PageController.swift */,
+				852246B2267C91C50075914B /* PlayerWaitView.swift */,
+				852246F7268C5CCF0075914B /* CreateGameView.swift */,
+				852246FB268C5CFC0075914B /* GameRoadView.swift */,
+				852246FF268C5D1D0075914B /* GameWaitView.swift */,
+				85224719268C62020075914B /* GameView.swift */,
+				852246A1267C5B040075914B /* WebView.swift */,
+				852246B5267C91E30075914B /* CreateRoleView.swift */,
 				553B22EC2626D187009A291D /* ContentView.swift */,
 				553B22EE2626D189009A291D /* Assets.xcassets */,
 				553B22F32626D189009A291D /* Info.plist */,
+				85DDCE6C268C9DA200A4DEF1 /* GoogleService-Info.plist */,
 				553B22F02626D189009A291D /* Preview Content */,
 			);
 			path = fianl_Game;
@@ -65,8 +154,33 @@
 			isa = PBXGroup;
 			children = (
 				553B22F12626D189009A291D /* Preview Assets.xcassets */,
+				852246BC267C940B0075914B /* GADBannerView.swift */,
+				852246B9267C93F00075914B /* UIviewController+Extension.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59F6C467FE1A626262AA98AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B2F2933860769BDD99B33E7 /* Pods_fianl_Game.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		852246CF267CD8200075914B /* FileBase */ = {
+			isa = PBXGroup;
+			children = (
+				852246D0267CD8600075914B /* AdsData.swift */,
+				852246D4267CD8810075914B /* DataOfFirebase.swift */,
+				852246D8267CD8A30075914B /* StorageOfFirebase.swift */,
+				852246EC268C5B2A0075914B /* GameWaitViewMode.swift */,
+				852246F0268C5B740075914B /* GameViewModel.swift */,
+				852246F3268C5BA40075914B /* Usedatas.swift */,
+				8522470C268C60550075914B /* SoundFuction.swift */,
+				85224729268C68FF0075914B /* Extension.swift */,
+			);
+			path = FileBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,15 +190,24 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 553B22F62626D189009A291D /* Build configuration list for PBXNativeTarget "fianl_Game" */;
 			buildPhases = (
+				2F568A70B9A96F22F974ACE3 /* [CP] Check Pods Manifest.lock */,
 				553B22E32626D187009A291D /* Sources */,
 				553B22E42626D187009A291D /* Frameworks */,
 				553B22E52626D187009A291D /* Resources */,
+				68D38B5DC54B02F810A3EA24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = fianl_Game;
+			packageProductDependencies = (
+				553B23032626D43E009A291D /* FirebaseAuth */,
+				553B23052626D43E009A291D /* FirebaseStorageSwift-Beta */,
+				553B23072626D43E009A291D /* FirebaseFirestoreSwift-Beta */,
+				852246C7267CA23B0075914B /* FirebaseAnalyticsSwift-Beta */,
+				852246C9267CA2440075914B /* FirebaseCrashlytics */,
+			);
 			productName = fianl_Game;
 			productReference = 553B22E72626D187009A291D /* fianl_Game.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +235,9 @@
 				Base,
 			);
 			mainGroup = 553B22DE2626D186009A291D;
+			packageReferences = (
+				553B23022626D43E009A291D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 553B22E82626D187009A291D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,18 +254,84 @@
 			files = (
 				553B22F22626D189009A291D /* Preview Assets.xcassets in Resources */,
 				553B22EF2626D189009A291D /* Assets.xcassets in Resources */,
+				85E42169268DAFB700CB7D70 /* 背景音樂.mp3 in Resources */,
+				85DDCE6D268C9DA200A4DEF1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F568A70B9A96F22F974ACE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fianl_Game-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D38B5DC54B02F810A3EA24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fianl_Game/Pods-fianl_Game-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fianl_Game/Pods-fianl_Game-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fianl_Game/Pods-fianl_Game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		553B22E32626D187009A291D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852246F1268C5B740075914B /* GameViewModel.swift in Sources */,
+				852246F4268C5BA40075914B /* Usedatas.swift in Sources */,
+				852246B0267C91980075914B /* PageController.swift in Sources */,
+				553B230B2626D592009A291D /* AppDelegate.swift in Sources */,
+				852246BA267C93F00075914B /* UIviewController+Extension.swift in Sources */,
+				85224700268C5D1D0075914B /* GameWaitView.swift in Sources */,
+				852246B6267C91E30075914B /* CreateRoleView.swift in Sources */,
+				852246D9267CD8A30075914B /* StorageOfFirebase.swift in Sources */,
+				8522470D268C60550075914B /* SoundFuction.swift in Sources */,
+				852246FC268C5CFC0075914B /* GameRoadView.swift in Sources */,
+				852246B3267C91C50075914B /* PlayerWaitView.swift in Sources */,
+				852246F8268C5CCF0075914B /* CreateGameView.swift in Sources */,
+				852246A2267C5B040075914B /* WebView.swift in Sources */,
+				852246D1267CD8600075914B /* AdsData.swift in Sources */,
 				553B22ED2626D187009A291D /* ContentView.swift in Sources */,
+				8522472A268C68FF0075914B /* Extension.swift in Sources */,
+				852246A8267C5B460075914B /* RegisterView.swift in Sources */,
+				852246A5267C5B1E0075914B /* AdsView.swift in Sources */,
+				8522469D267C5ADC0075914B /* LoginView.swift in Sources */,
+				852246ED268C5B2A0075914B /* GameWaitViewMode.swift in Sources */,
 				553B22EB2626D187009A291D /* fianl_GameApp.swift in Sources */,
+				852246BD267C940B0075914B /* GADBannerView.swift in Sources */,
+				852246D5267CD8810075914B /* DataOfFirebase.swift in Sources */,
+				8522471A268C62020075914B /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +456,7 @@
 		};
 		553B22F72626D189009A291D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B21684AD249C16F28C068D5 /* Pods-fianl_Game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +478,7 @@
 		};
 		553B22F82626D189009A291D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F101367CE0C04DA8C8CE58DF /* Pods-fianl_Game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,6 +520,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		553B23022626D43E009A291D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		553B23032626D43E009A291D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 553B23022626D43E009A291D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		553B23052626D43E009A291D /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 553B23022626D43E009A291D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+		553B23072626D43E009A291D /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 553B23022626D43E009A291D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		852246C7267CA23B0075914B /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 553B23022626D43E009A291D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		852246C9267CA2440075914B /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 553B23022626D43E009A291D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 553B22DF2626D186009A291D /* Project object */;
 }
